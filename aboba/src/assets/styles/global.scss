@@ -1,0 +1,31 @@
+@import "./fonts.scss";
+
+:root {
+  --satoshi:"Satoshi", sans-serif;
+  --Clash:"ClashDisplay-Regular", sans-serif;
+  --black:#2A254B;
+  --gray:#726E8D;
+  --lightGray:#5B5676;
+}
+
+* {
+  box-sizing: border-box;
+  font-weight:400;
+}
+
+body{
+  font-size: 16px;
+  color:var(--black);
+  margin: 0;
+  padding: 0;
+  font-family: var(--satoshi)
+}
+
+img{
+  max-width: 100%;
+}
+
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
